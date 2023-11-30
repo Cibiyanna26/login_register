@@ -24,7 +24,7 @@ export function Login() {
                 <Card className="w-[350px]">
                 <CardHeader>
                 <CardTitle>Login In</CardTitle>
-                <CardDescription>Welcome newbie ! </CardDescription>
+                <CardDescription>Happy to See ! </CardDescription>
                 </CardHeader>
                 <CardContent>
                 <form>
