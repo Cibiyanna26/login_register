@@ -1,25 +1,17 @@
 import { Button } from "@/components/ui/button";
 import {useNavigate} from 'react-router-dom';
-import * as React from "react"
+
 import Hello from '../assets/handwave_croped_removebg.png'
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-  } from "@/components/ui/select"
-   
+
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 const Home = () =>{
     const navigate =useNavigate();
     return(
